@@ -3,13 +3,12 @@
 This was a two-person group project aimed at classifying ECG heartbeats as normal or abnormal using the MIT-BIH Arrhythmia Database from PhysioNet.
 
 My contributions to the project included:
-
-- Designed and implemented the 1D Convolutional Neural Network (CNN) architecture in PyTorch for ECG arrhythmia classification.
-- Built the CNN training pipeline with class-weighted loss, train/validation/test splitting, and validation loss-based model checkpointing.
-- Implemented data normalization and tensor preprocessing required for deep learning training.
-- Evaluated model performance using confusion matrices, ROC-AUC, precision, recall, and F1-score metrics.
-- Conducted model performance analysis, including overfitting detection through train-validation loss monitoring.
-- Developed inference and visualization workflows to generate prediction results, performance curves, and evaluation plots.
+- Building the 1D CNN model in PyTorch for heartbeat classification.
+- Implementing the training workflow, including data normalization, class-weighted loss, train-validation-test splitting, and model checkpointing.
+- Preparing ECG heartbeat segments for deep learning training and inference.
+- Evaluating model performance using ROC-AUC, confusion matrices, precision, recall, and F1-score metrics.
+- Monitoring training and validation loss trends to analyze model generalization and overfitting.
+- Creating scripts and visualizations for prediction analysis and model evaluation.
 
 The dataset used is the MIT-BIH Arrhythmia Database from PhysioNet.
 
