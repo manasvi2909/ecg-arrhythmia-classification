@@ -1,6 +1,15 @@
 # ECG Arrhythmia Detection
 
-This repository contains the code for a project that classifies ECG heartbeats as either normal or abnormal. I built a 1-dimensional CNN in PyTorch to classify the raw signals and compared its performance against baseline models (Logistic Regression and Random Forest) using scikit-learn.
+This was a two-person group project aimed at classifying ECG heartbeats as normal or abnormal using the MIT-BIH Arrhythmia Database from PhysioNet.
+
+My contributions to the project included:
+
+- Designed and implemented the 1D Convolutional Neural Network (CNN) architecture in PyTorch for ECG arrhythmia classification.
+- Built the CNN training pipeline with class-weighted loss, train/validation/test splitting, and validation loss-based model checkpointing.
+- Implemented data normalization and tensor preprocessing required for deep learning training.
+- Evaluated model performance using confusion matrices, ROC-AUC, precision, recall, and F1-score metrics.
+- Conducted model performance analysis, including overfitting detection through train-validation loss monitoring.
+- Developed inference and visualization workflows to generate prediction results, performance curves, and evaluation plots.
 
 The dataset used is the MIT-BIH Arrhythmia Database from PhysioNet.
 
