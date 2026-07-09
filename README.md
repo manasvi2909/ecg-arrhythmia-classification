@@ -52,9 +52,9 @@ The dataset used is the MIT-BIH Arrhythmia Database from PhysioNet.
 
 I split the data into 70% training, 15% validation, and 15% testing sets. Here is how the models compared on the test set:
 
-- **Logistic Regression**: 74% accuracy.
-- **Random Forest**: 88% accuracy.
-- **1D CNN**: 99.6% accuracy (F1-score of 0.99 for abnormal beats).
+- **Logistic Regression**: 74% accuracy (Precision: 0.73, Recall: 0.72, F1-score: 0.73, ROC-AUC: 0.79)
+- **Random Forest**: 88% accuracy (Precision: 0.88, Recall: 0.87, F1-score: 0.87, ROC-AUC: 0.92)
+- **1D CNN**: 95.3% accuracy (Precision: 0.95, Recall: 0.95, F1-score: 0.95, ROC-AUC: 0.98)
 
 The CNN performs significantly better because it learns features directly from the raw heartbeat shape rather than relying on simple statistical aggregates.
 
