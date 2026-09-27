@@ -358,7 +358,7 @@ The train/validation/test split is stratified to preserve the Normal/Abnormal cl
 
 ## Signal Normalization
 
-Before CNN training, the ECG signals are standardized using global Z-score normalization:
+The ECG signals are standardized using global Z-score normalization:
 
 ```text
 X_normalized = (X - mean(X)) / std(X)
