@@ -755,22 +755,3 @@ This project is an educational/research implementation for experimenting with:
 
 It is **not a clinical diagnostic system** and should not be used for medical decision-making.
 
----
-
-# Key Takeaway
-
-The project demonstrates an end-to-end comparison between two approaches to ECG heartbeat classification:
-
-```text
-ECG waveform
-     │
-     ├──► Handcrafted statistical features
-     │          │
-     │          ├──► Logistic Regression
-     │          └──► Random Forest
-     │
-     └──► Raw waveform
-                │
-                └──► 1D CNN
-```
-```
